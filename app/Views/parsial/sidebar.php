@@ -23,11 +23,8 @@
               </li>
               <li><a href=<?php echo base_url('Kategori/datakategori');?>><i class="fa fa-bookmark"></i> Kategori</a>
               </li>
-
-
+          </ul>
       </div>
-
-
   </div>
   <!-- /menu footer buttons -->
   </div>

@@ -22,7 +22,6 @@
             </div>
             </form>
             <div class="clearfix"></div>
-            <div class="row">
                 <div class="x_content">
                     <div class="table-responsive">
                         <?php if (session()->get('role')=='admin') { ?>

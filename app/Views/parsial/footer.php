@@ -1,24 +1,24 @@
 <!-- footer content -->
 <footer>
-          <div class="pull-right">
-          <p>Copyright by CV.Rajawali Corporation - 2021</p>
-          </div>
-          <div class="clearfix"></div>
-        </footer>
-        <!-- /footer content -->
-        <!-- upload file -->
-        <script>
-          function ambilNama() 
-          {
-            const file = document.querySelector('.custom-file-input');
-            const namafile = document.querySelector('.custom-file-label');
-            namafile.textContent = file.files[0].name;
-          }
-        </script>
-
-</div>
+    <div class="pull-right">
+        <p>Copyright by CV.Rajawali Corporation - 2021</p>
     </div>
-</div>
+    <div class="clearfix"></div>
+</footer>
+</body>
+</html>
+<!-- /footer content -->
+
+
+<!-- upload file -->
+<script>
+function ambilNama() {
+    const file = document.querySelector('.custom-file-input');
+    const namafile = document.querySelector('.custom-file-label');
+    namafile.textContent = file.files[0].name;
+}
+</script>
+
 <!-- jQuery -->
 <script src="<?php echo base_url('theme');?>/vendors/jquery/dist/jquery.min.js"></script>
 <!-- Bootstrap -->

@@ -22,7 +22,6 @@
             </div>
             </form>
             <div class="clearfix"></div>
-            <div class="row">
                 <div class="x_content">
                     <div class="table-responsive">
                         <?php if (session()->get('role')=='admin') { ?>
@@ -80,7 +79,6 @@
                                 <?php endforeach; ?>
                                 </thead>
                         </table>
-                        <?php //echo $pager->links('suratmasuk_pages', 'pagination_custom'); ?>
                     </div>
                 </div>
             </div>
