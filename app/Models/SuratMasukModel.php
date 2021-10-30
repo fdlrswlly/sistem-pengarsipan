@@ -14,7 +14,7 @@ class SuratMasukModel extends Model
 
     public function search($x)
 {
-    return $this->table('surat_masuk')->like('id_surat', $x)->orLike('no_surat', $x)->orLike('tgl_surat', $x)->orLike('perihal', $x)->orLike('perihal', $x)->orLike('pengirim', $x)->orLike('status', $x);
+    return $this->table('surat_masuk')->like('id_surat', $x)->orLike('id_kategori', $x)->orLike('no_surat', $x)->orLike('tgl_surat', $x)->orLike('perihal', $x)->orLike('pengirim', $x)->orLike('status', $x);
 }
   public function joinsuratmasukxkategori()
        {

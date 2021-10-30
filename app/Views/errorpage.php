@@ -30,7 +30,7 @@
                     <div class="text-center text-center">
                         <h1 class="error-number">403</h1>
                         <h2>Akses Ditolak</h2>
-                        <p>Anda tidak memiliki hak akses untuk mengakses sistem <a href="<?php echo base_url('/auth/login/');?>">Silahkan Login Disini!</a>
+                        <p>Anda tidak memiliki hak akses,<a href="<?php echo base_url('/auth/login/');?>"> Silahkan Login Disini!</a>
                         </p>
                         
                     </div>
